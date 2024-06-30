@@ -1,0 +1,88 @@
+.booksearchbar {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    border-radius: 28px;
+    background: var(--bg-tertiary);
+    width: 95%;
+}
+
+.booksearchbar>input {
+    font-size: 16px;
+    color: var(--text-primary);
+    margin-left: 24px;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.booksearch>form {
+    width: 100%;
+    height: 80%;
+}
+
+.booksearch--entry {
+    border: var(--bg-secondary) solid 1px;
+    width: 100%;
+    height: fit-content;
+    font-size: 24pt;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1.4fr 0.05fr 1.4fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "booksearch--entry--latin booksearch--entry--spacer booksearch--entry--german";
+}
+
+.booksearch--entry--latin {
+    grid-area: booksearch--entry--latin;
+
+}
+
+.booksearch--entry--spacer {
+    grid-area: booksearch--entry--spacer;
+    text-align: center;
+}
+
+.booksearch--entry--spacer>div {
+    width: 3px;
+    background-color: var(--text-secondary);
+    height: 100%;
+}
+
+.booksearch--entry--german {
+    grid-area: booksearch--entry--german;
+}
+
+.booksearch--warning {
+    color: var(--text-secondary);
+    font-size: 2.5vw;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+    .booksearch--entry {
+        font-size: 14pt;
+    }
+
+    .booksearchbar--text>p {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .booksearch--entry {
+        font-size: 10pt;
+    }
+
+}
+
+.booksearchbar--text>p {
+    margin: 0;
+}

@@ -1,0 +1,183 @@
+.vocset {
+    margin: auto;
+    max-width: 500px;
+    /*min-width: 300px;
+    min-height: 70px;
+    max-height: 100px;*/
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    transition: background 0.1s;
+    margin-bottom: 30px;
+}
+
+
+.vocset:hover {
+    background-color: var(--text-secondary);
+}
+
+.voc_set_description {
+    display: grid;
+    grid-template-columns: 1.7fr 0.3fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "name count"
+        "vocset_author count";
+}
+
+.count {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1.9fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "count_description"
+        "count_value";
+    grid-area: count;
+}
+
+.count_description {
+    text-align: center;
+    grid-area: count_description;
+    font-size: min(7vw, 16pt);
+}
+
+.count_value {
+    text-align: center;
+    font-size: min(7vw, 40pt);
+    
+    grid-area: count_value;
+
+}
+
+.vocset_name {
+    font-size: min(5vw, 28pt);
+    grid-area: name;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.vocset_author {
+    font-size: 3vh;
+    grid-area: vocset_author;
+    padding-left: 10px;
+    text-align: center;
+}
+
+category {
+    background-color: var(--bg-tertiary);
+    border-radius: 20px;
+    display: block;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.category_button {
+    background-color: var(--bg-secondary);
+}
+
+.vocabulary_view_vocab {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "first second third";
+}
+
+.first {
+    grid-area: first;
+}
+
+.second {
+    grid-area: second;
+}
+
+.third {
+    grid-area: third;
+}
+
+table[type="vocabulary_view"] {
+    font-size: 2vw;
+    max-width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th>text {
+    font-size: 2.4vw;
+}
+
+table[type="vocabulary_view"] th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: var(--text-secondary);
+}
+
+table[type="vocabulary_view"] td,
+table[type="vocabulary_view"] th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table[type="vocabulary_view"] tr:nth-child(even) {
+    background-color: var(--bg-tertiary);
+}
+
+table[type="vocabulary_view"] tr:hover {
+    background-color: var(--accent);
+}
+
+.vocabulary_view_vocab_list {
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.testing_question,
+.verbs_question {
+    padding: 10px 6px;
+
+    min-width: 500px;
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+}
+
+table[trainer="table"] {
+    width: 60%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    text-align: center;
+}
+
+section[trainer="div"] {
+    width: 100%;
+}
+
+table[trainer="table"] th {
+    font-size: 7pt;
+}
+
+table[trainer="table"] td {
+    font-size: 12pt;
+}
+
+td[trainer_style]>i {
+    font-size: 38pt !important;
+    transition: font-size 0.1s;
+}
+
+td[trainer_style]:hover>i {
+    font-size: 42pt !important;
+}

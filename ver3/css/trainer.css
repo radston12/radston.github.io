@@ -1,0 +1,30 @@
+.testing_awnser {
+    width: 100%;
+}
+
+.testing_awnser>table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testing_awnser>table>tbody>tr>th {
+    font-size: 13pt;
+    width: 100px;
+}
+
+.subquestion {
+    font-size: 10pt;
+    text-align: center;
+    width: 100%;
+    display: block;
+    opacity: 0.5;
+    font-style: italic;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 700px) {
+    .testing {
+        overflow-x: hidden;
+    }
+}

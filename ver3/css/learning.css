@@ -1,0 +1,40 @@
+table[learning="table"] {
+    width: 60%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+table[learning="table"] th {
+    font-size: 7pt;
+}
+
+table[learning="table"] td {
+    font-size: 12pt;
+}
+
+.learning_awnser {
+    width: 100%;
+}
+
+.learning_awnser>table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.learning_awnser>table>tbody>tr>th {
+    font-size: 13pt;
+    width: 100px;
+}
+
+.learning_question {
+    padding: 10px 6px;
+
+    min-width: 500px;
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+}

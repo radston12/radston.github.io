@@ -1,0 +1,8 @@
+setting {
+    background-color: var(--bg-secondary);
+    border-radius: 20px;
+    display: block;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 20px;
+}
