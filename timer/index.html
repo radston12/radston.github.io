@@ -1,0 +1,127 @@
+<html lang="en">
+
+<head>
+    <!-- STANDART -->
+    <title>School-Timer by radston12</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- EMBED -->
+    <meta content="Der neue Timer für das Schuljahr" property="og:title">
+    <meta content="Sehe jetzt einen Countdown bis zum letzem Schultag" property="og:description">
+    <meta content="https://radston.github.io/timer/" property="og:url">
+    <meta content="#43a2b5" data-react-helmet="true" name="theme-color">
+
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body class="preload">
+    <main id="primary">
+        <section>
+            <label class="darkColor currentTime"></label>
+        </section>
+
+        <section class="box">
+
+            <div class="bigTimer">
+                <div class="days cell">
+                    <span>0</span><br>
+                    <span>D<span class="subtitle">ays</span></span>
+                </div>
+                <div class="spacer">
+                    <span>:</span>
+                </div>
+                <div class="hours cell">
+                    <span>00</span><br>
+                    <span>H<span class="subtitle">ours</span></span>
+                </div>
+                <div class="spacer2 spacer">
+                    <span>:</span>
+                </div>
+                <div class="minutes cell">
+                    <span>00</span><br>
+                    <span>M<span class="subtitle">inutes</span></span>
+                </div>
+                <div class="spacer3 spacer">
+                    <span>:</span>
+                </div>
+                <div class="seconds cell">
+                    <span>00</span><br>
+                    <span>S<span class="subtitle">econds</span></span>
+                </div>
+                <div class="spacer4 spacer">
+                    <span>:</span>
+                </div>
+                <div class="milliseconds cell">
+                    <span>000</span><br>
+                    <span>M<span class="subtitle">illiseconds</span></span>
+                </div>
+            </div>
+
+            <seperator></seperator>
+
+            <div class="smallTimer">
+                <div class="sdays cell">
+                    <span>00</span><br>
+                    <span>S<span class="subtitle">chultage</span></span>
+                </div>
+                <div class="spacer">
+                    <span>:</span>
+                </div>
+                <div class="free cell">
+                    <span>00</span><br>
+                    <span>F<span class="subtitle">reie Tage</span></span>
+                </div>
+                <div class="spacer2 spacer">
+                    <span>:</span>
+                </div>
+                <div class="weekends cell">
+                    <span>00</span><br>
+                    <span>W<span class="subtitle">ochenenden</span></span>
+                </div>
+            </div>
+            <seperator></seperator>
+
+            <div class="smallTimer moreinfo">
+                <div class="yesterday cell">
+                    <span>00</span><br>
+                    <span>G<span class="subtitle">estern</span></span>
+                </div>
+                <div class="spacer">
+                    <span class="material-icons" style="font-size: 40pt;">chevron_left</span>
+                </div>
+                <div class="today cell">
+                    <span>00</span><br>
+                    <span>H<span class="subtitle">eute</span></span>
+                </div>
+                <div class="spacer spacer2">
+                    <span class="material-icons" style="font-size: 40pt;">
+                        chevron_right
+                    </span>
+                </div>
+                <div class="tomorrow cell">
+                    <span>00</span><br>
+                    <span>M<span class="subtitle">orgen</span></span>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="center">
+            <label class="darkColor">by radston12</label>
+            <br>
+            <label class="darkColor fpsCounter">x FPS</label>
+        </section>
+    </main>
+
+    <script src="./backend.js" async></script>
+</body>
+
+</html>
