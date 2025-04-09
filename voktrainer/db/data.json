@@ -1712,7 +1712,7 @@
                     ]
                 }, 
                 {
-                    "name": "Unit 9",
+                    "name": "Unit 9 (D->E)",
                     "author": "69smite69",
                     "vocabulary": [
                         ["einen Scheck einlösen",                    "cash a cheque"],
@@ -1757,6 +1757,54 @@
                         ["Friedenstruppe",                           "peacekeeping force"],
                         ["Feindseligkeiten",                         "hostilities"],
                         ["gewaltfreie Mittel",                       "non-violent means"]
+                    ]
+                },
+                {
+                    "name": "Unit 9 (E->D)",
+                    "author": "69smite69",
+                    "vocabulary": [
+                        ["cash a cheque",                            "einen Scheck einlösen"],
+                        ["scam",                                     "Betrug"],
+                        ["bank account",                             "Bankkonto"],
+                        ["to deposit",                               "Einzahlen"],
+                        ["to outsmart",                              "überlisten"],
+                        ["to embark on",                             "Einen Weg einschlagen"],
+                        ["to forge",                                 "Fälschen"],
+                        ["forgery",                                  "fälschen"],
+                        ["audacious",                                "waghalsig"],
+                        ["to prevail",                               "überwiegen"],
+                        ["to deceive",                               "täuschen"],
+                        ["deception",                                "Täuschung"],
+                        ["jump-seat",                                "Notsitz"],
+                        ["to defraud sb ",                           "betrügen"],
+                        ["fraud",                                    "Betrug"],
+                        ["state attorney",                           "Staatsanwalt"],
+                        ["lawyer",                                   "Rechtsanwalt"],
+                        ["white collar crime",                       "Wirtschaftsverbrechen"],
+                        ["embezzlement",                             "Veruntreuung"],
+                        ["to be sentenced",                          "verurteilt"],
+                        ["conman",                                   "Hochstapler"],
+                        ["to deny",                                  "verleugnen"],
+                        ["to invade a country ",                     "in ein Land einfallen"],
+                        ["resistance movement",                      "Widerstandsbewegung"],
+                        ["to occupy",                                "besetzen"],
+                        ["marksmanship",                             "Waffenführung"],
+                        ["to resist interrogation",                  "einer Befragung widerstehen"],
+                        ["transmission ",                            "Übertragung"],
+                        ["coded message",                            "verschlüsselte Nachricht"],
+                        ["to declare war",                           "einen Krieg erklären"],
+                        ["casualties",                               "Verluste"],
+                        ["to surrender",                             "aufgeben"],
+                        ["negotiations",                             "Verhandlungen"],
+                        ["to commit murder",                         "einen Mord begehen"],
+                        ["cold case",                                "ungeklärter Fall"],
+                        ["warfare",                                  "Kriegsführung"],
+                        ["peace treaty",                             "Friedensvertrag"],
+                        ["ceasefire",                                "Waffenstillstand"],
+                        ["no-man´s-land",                            "Niemandsland"],
+                        ["peacekeeping force",                       "Friedenstruppe"],
+                        ["hostilities",                              "Feindseligkeiten"],
+                        ["non-violent means",                        "gewaltfreie Mittel"]
                     ]
                 }
             ]
