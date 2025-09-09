@@ -1,6 +1,76 @@
 {
     "categorys": [
         {
+            "name": "Temporär",
+            "format": {
+                "questions": [1,2],
+                "questions_str": ["Wie lautet die grammatische Kennzeichnung <br> von", "Wie lautet das deutsche Wort <br> von"],
+                "result_str": "Wusstest du was richtig war?",
+                "names": ["Latein","grammatische Kennzeichnung","Deutsch"],
+                "sortable": true
+            },
+            "sets": [
+                {
+                    "name": "Kurze Wörter Tab 1",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["a, ab (+ Abl.)",                           "",                                         "von"],
+                        ["ac (= atque)",                             "",                                         "und"],
+                        ["ad (+ Akk.)",                              "",                                         "zu, an, bei"],
+                        ["adhuc",                                    "",                                         "bis jetzt, bisher"],
+                        ["aliqui, aliqua, aliquod",                  "",                                         "irgendein(e)"],
+                        ["aliquis, aliquid",                         "",                                         "irgendwer, irgendwas"],
+                        ["alius/a/ud",                               "",                                         "ein anderer"],
+                        ["alius — alius",                            "",                                         "der eine — der andere"],
+                        ["alter/a/um",                               "",                                         "der andere (von zweien)"],
+                        ["alter — alter",                            "",                                         "der eine — der andere"],
+                        ["an",                                       "",                                         "Oder (in der Doppelfrage)"],
+                        ["ante (+ Akk.)",                            "",                                         "vor"],
+                        ["ante(a) (Adv.)",                           "",                                         "vorher, früher"],
+                        ["apud (+ Akk.)",                            "",                                         "bei"],
+                        ["at",                                       "",                                         "aber"],
+                        ["atque (z ac)",                             "",                                         "und"],
+                        ["aut",                                      "",                                         "oder"],
+                        ["aut — aut",                                "",                                         "entweder — oder"],
+                        ["autem (nachgestellt)",                     "",                                         "aber"],
+                        ["causa (nach Gen.)",                        "",                                         "wegen"],
+                        ["ceteri/ae/a",                              "",                                         "die Übrigen"],
+                        ["complures/a",                              "",                                         "mehrere"],
+                        ["contra (+ Akk.)",                          "",                                         "gegen"],
+                        ["cui?",                                     "",                                         "wem?"],
+                        ["cuius?",                                   "",                                         "wessen?"],
+                        ["cum (+ Abl.)",                             "",                                         "mit"],
+                        ["cum (+ Indikativ)",                        "",                                         "wenn; sooft; als"],
+                        ["cum (+ Konjunktiv)",                       "",                                         "als; weil; obwohl"],
+                        ["cuncti/ae/a",                              "",                                         "alle"],
+                        ["cur?",                                     "",                                         "warum?"],
+                        ["de (+ Abl.)",                              "",                                         "von; über"],
+                        ["deinde (= dein)",                          "",                                         "dann"],
+                        ["denique",                                  "",                                         "schließlich"],
+                        ["dum (+ Präsens)",                          "",                                         "während"],
+                        ["e, ex (+ Abl.)",                           "",                                         "aus; von"],
+                        ["eius",                                     "",                                         "dessen; deren (Sg.)"],
+                        ["eiusmodi",                                 "",                                         "derartig"],
+                        ["enim (nachgestellt)",                      "",                                         "denn, nämlich"],
+                        ["eo",                                       "",                                         "dorthin"],
+                        ["eorum/earum",                              "",                                         "deren (Pl.)"],
+                        ["ergo",                                     "",                                         "also, daher"],
+                        ["et",                                       "",                                         "und"],
+                        ["et — et",                                  "",                                         "sowohl — als auch"],
+                        ["et (= etiam)",                             "",                                         "auch"],
+                        ["etenim",                                   "",                                         "denn, nämlich"],
+                        ["etiam",                                    "",                                         "auch"],
+                        ["etiamsi",                                  "",                                         "auch wenn"],
+                        ["etsi",                                     "",                                         "wenn auch, obwohl"],
+                        ["extra (+ Akk.)",                           "",                                         "außerhalb (von)"],
+                        ["fere",                                     "",                                         "ungefähr, fast"],
+                        ["fore (= futurum esse)",                    "",                                         "sein werden"],
+                        ["forte",                                    "",                                         "zufällig"]
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Latein",
             "format": {
                 "questions": [1,2],
