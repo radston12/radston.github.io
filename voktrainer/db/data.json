@@ -259,6 +259,39 @@
             },
             "sets": [
                 {
+                    "name": "Lust auf Glück",
+                    "author": "radston12",
+                    "vocabulary": [
+                        ["extremus",                                 "3",                                        "der äußerste"],
+                        ["sententia",                                "-ae f. ",                                  "Meinung"],
+                        ["sententiā",                                "",                                         "nach der Meinung"],
+                        ["referre",                                  "-fero, rettuli, relatum (ad)",             "berichten; beziehen (ad)"],
+                        ["voluptas",                                 "-atis f.",                                 "Lust, Zufriedenheit; „Wellness“"],
+                        ["simulac/simulatque",                       "(Konj.)",                                  "sobald"],
+                        ["appetere",                                 "3, appeto, appetivi, appetitum",           "anstreben"],
+                        ["repellere",                                "3, repello, repuli, repulsum",             "zurückschlagen/-treiben/-weisen"],
+                        ["finitus",                                  "3",                                        "begrenzt"],
+                        ["cupiditas",                                "-atis f.",                                 "Gier, Begierde, Leidenschaft"],
+                        ["diis",                                     "= dis = deis (Dat./Abl. Pl.)",             "den Göttern"],
+                        ["sine ullo metu",                           "",                                         "ohne irgendeine Furcht, völlig furchtlos"],     
+                        ["vera",                                     "n. Pl.",                                   "das Wahre, die Wahrheit"],
+                        ["dubitare",                                 "(1, -o, -avi, -atum)",                     "zögern (+ Inf.), zweifeln (mit indir. FS)"],    
+                        ["tempus ..., quo ...",                      "",                                         "eine Zeit …, in der …"],
+                        ["praeterita",                               "n. Pl.",                                   "die Vergangenheit, das Vergangene"],
+                        ["praesentia",                               "n. Pl.",                                   "das Gegenwärtige, die Gegenwart"],
+                        ["animadvertere",                            "3, -verto, -verti, -versum",               "bemerken"],
+                        ["iucundus",                                 "3",                                        "angenehm"],
+                        ["futura",                                   "n. Pl.",                                   "das Zukünftige, die Zukunft"],
+                        ["frui",                                     "fruor 3 (Depon.) + Abl.",                  "etwas genießen"],
+                        ["vitium",                                   "vitii n.",                                 "(moralischer) Fehler"],
+                        ["abesse",                                   "absum, afui",                              "entfernt/weg sein"],
+                        ["stultus",                                  "3",                                        "dumm; Subst.: der Dumme"],
+                        ["afficere",                                 "M, -io, affeci, affectum + Abl.",          "mit etwas erfüllen/versehen"],
+                        ["gaudio affici",                            "(Passiv)",                                 "mit Freude erfüllt werden"],
+                        ["plus ... quam",                            "",                                         "mehr … als"]
+                    ]
+                },
+                {
                     "name": "Seite 9",
                     "author": "admin",
                     "vocabulary": [
